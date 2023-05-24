@@ -1,0 +1,36 @@
+diff --git a/dom/media/webrtc/sdp/RsdparsaSdpGlue.cpp b/dom/media/webrtc/sdp/RsdparsaSdpGlue.cpp
+index 8c8a0369c3..d43b4a1e0d 100644
+--- a/dom/media/webrtc/sdp/RsdparsaSdpGlue.cpp
++++ b/dom/media/webrtc/sdp/RsdparsaSdpGlue.cpp
+@@ -3,6 +3,7 @@
+ /* This Source Code Form is subject to the terms of the Mozilla Public
+  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+  * You can obtain one at http://mozilla.org/MPL/2.0/. */
++#include <cstdint>
+ #include <string>
+
+ #include "sdp/RsdparsaSdpInc.h"
+diff --git a/gfx/2d/Rect.h b/gfx/2d/Rect.h
+index 4875ad6714..f52437bbdc 100644
+--- a/gfx/2d/Rect.h
++++ b/gfx/2d/Rect.h
+@@ -15,6 +15,7 @@
+ #include "mozilla/Maybe.h"
+
+ #include <cmath>
++#include <cstdint>
+
+ namespace mozilla {
+
+diff --git a/toolkit/components/telemetry/pingsender/pingsender.cpp b/toolkit/components/telemetry/pingsender/pingsender.cpp
+index 01fdb63c29..ceda3b1945 100644
+--- a/toolkit/components/telemetry/pingsender/pingsender.cpp
++++ b/toolkit/components/telemetry/pingsender/pingsender.cpp
+@@ -3,6 +3,7 @@
+  * License, v. 2.0. If a copy of the MPL was not distributed with this
+  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
++#include <cstdint>
+ #include <cstdlib>
+ #include <cstring>
+ #include <ctime>
